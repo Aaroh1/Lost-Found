@@ -1,0 +1,21 @@
+@import '~mdb-ui-kit/css/mdb.min.css';
+.gradient-custom-2 {
+  background: hsl(33, 95%, 78%);
+
+  background: linear-gradient(to right,  #dc2a2a, #e32f3b, #e9364b, #ef3e5b, #f3466a);
+}
+.form{
+    border: 1px black solid;
+  }
+  
+  @media (min-width: 768px) {
+  .gradient-form {
+  height: 100vh !important;
+  }
+  }
+  @media (min-width: 769px) {
+  .gradient-custom-2 {
+  border-top-right-radius: .3rem;
+  border-bottom-right-radius: .3rem;
+  }
+  }
